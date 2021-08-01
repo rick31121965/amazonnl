@@ -27,6 +27,8 @@ Het inloggen in amazon.nl
     click element    //*[@id="sc-buy-box-ptc-button"]/span/input
     ${elementText}    get text    //*[@id="authportal-main-section"]/div[2]/div/div[1]/form/div/div/div/h1
     should contain any    ${ElementText}    Inloggen    ignore_case=true
+    # dit is een toevoeging voor versie twee
+
 
 
 
