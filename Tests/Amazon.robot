@@ -29,6 +29,7 @@ Het inloggen in amazon.nl
 #    ${elementText}    get text    //*[@id="authportal-main-section"]/div[2]/div/div[1]/form/div/div/div/h1
   #  should contain any    ${ElementText}    Inloggen    ignore_case=true
 # dit is de basisversie die geupload is.
+# dit is een aanpassing gedaan direct op de server
 # dit is een lokale aanpassing op de computer
 
 
